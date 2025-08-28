@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
+  "dev": "ts-node src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js",
+  "render-build": "npm run build"
   },
   "dependencies": {
     "better-sqlite3": "^9.4.3",
